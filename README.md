@@ -1,4 +1,4 @@
-Personal repository to structure my ideas and visualize my knowledge
+Personal obsidian repository to structure my ideas and visualize my knowledge
 
 ### Current Plugins Installed
 

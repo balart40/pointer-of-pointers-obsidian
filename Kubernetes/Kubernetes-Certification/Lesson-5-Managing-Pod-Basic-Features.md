@@ -186,3 +186,29 @@ status: {}
 
 ## Namespaces
 
+- A linux namespace implements kernel-level resource isolation 
+- Kubernetes offers namespace resources that provide the same functionality
+- Different namespaces can be used to strictly separate between customer resources
+- Namespaces are used to apply different security related settings
+	- Role-Based Access Control (RBAC)
+	- Quota
+
+| Command               | Description |
+| :----------------  | :----: |
+| kubectl create namespace mynamespace | Create a namespace |
+| kubectl ... -n namespace| To work in a specific namespace|
+| kubectl get ... -all-namespaces| To see resources in all namespaces|
+
+The namespace will be shown in the metadata of the spec as shown below:
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  ...
+  name: MyNgnix
+  namespace: default
+spec:
+   ...
+```
+

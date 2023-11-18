@@ -69,7 +69,7 @@ Use `--dry-run=client -o yaml > my.yaml` as an argument to the `kubectl run` and
 
 For example you if you run 
 
-`kubectl run myginx --image=nginx --dry-run=client -o yaml > myginx.yaml`
+s
 
 Will generate the following YAML file
 

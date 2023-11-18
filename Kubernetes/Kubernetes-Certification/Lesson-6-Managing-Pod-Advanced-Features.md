@@ -357,3 +357,62 @@ Below some resource related commands
 |---|---|
 |`kubectl delete all --all`|Delete all resources in the current namespace.|
 |`kubectl delete all --all --force --grace-period=-1`|Forcefully and immediately delete all resources in the current namespace, bypassing any graceful termination periods. _**Note: Running this is not recommended, as it can be dangerous for your environment.**_|
+
+
+## Lab 6
+
+There are many ways to do this, i follow the next recipe
+
+First created the namespace since is a 1 CLI command
+
+```
+kubectl create namespace secret
+```
+
+Then performed the following command
+
+```
+kubectl run secret-app -n secret --image=busybox --dry-run=client -o yaml -- sleep 3600  >> secret-app.yaml
+```
+
+Next i copied the resource code example in [Container resources example](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#example-1)
+
+
+```yaml
+resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+```
+
+Finally i modified the `restartPolicy: OnFailure` From Always leaving the following YAML file below
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: secret-app
+  name: secret-app
+  namespace: secret
+spec:
+  restartPolicy: OnFailure
+  containers:
+  - args:
+    - sleep
+    - "3600"
+    image: busybox
+    resources:
+      requests:
+        memory: "64Mi"
+      limits:
+        memory: "128Mi"
+    name: secret-app
+    resources: {}
+  dnsPolicy: ClusterFirst
+status: {}
+```

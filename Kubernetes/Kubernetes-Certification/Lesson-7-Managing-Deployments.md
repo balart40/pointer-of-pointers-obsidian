@@ -1,4 +1,6 @@
 ---
 tags:
   - Kubernetes
+  - docker
+  - containers
 ---

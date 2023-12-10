@@ -1,3 +1,8 @@
+---
+tags:
+  - RDBMS
+  - database
+---
 
 At this point in the course, you know:
 

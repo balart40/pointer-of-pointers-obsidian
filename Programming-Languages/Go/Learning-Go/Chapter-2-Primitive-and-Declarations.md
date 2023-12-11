@@ -306,3 +306,21 @@ Go doesn’t provide a way to specify that a value calculated at runtime is immu
 There are no immutable arrays, slices, maps, or structs, and there’s no way to declare that a field in a struct is immutable.
 
 Constants in Go are a way to give names to literals. There is no way in Go to declare that a variable is immutable.
+#### Typed and Untyped Constants 
+
+Constants can be typed or untyped. An untyped constant works exactly like a literal; it has no type of its own, but does have a default type that is used when no other type can be inferred.
+
+Therefore if we have 
+```
+const x =  10
+```
+The following are legal
+```
+var y int = x
+var z float64 = x
+var d byte = x
+```
+## Unused variables
+
+Another Go requirement is that every declared local variable must be read. It is a compile-time error to declare a local variable and to not read its value.
+

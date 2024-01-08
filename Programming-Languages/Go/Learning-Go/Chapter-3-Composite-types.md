@@ -221,6 +221,271 @@ z:  [20 30 4]
 Changing x modified both y and z, while changes to y and z modified x
 
 To void complicated slice situations, you should either never use append with a subslice.
-
 ### Converting Arrays to Slices
 
+Taking a slice from an array has the same memory-sharing properties as taking a slice from a slice.
+
+```
+x := [4]int{1, 2, 3, 4}
+y := x[:2]
+z := x[2:]
+```
+### Copy
+
+To create a slice independent of the original you can yous the built-in `copy` function.
+
+```
+x := []int{1, 2, 3, 4}
+y := make([]int, 4)
+num := copy(y, x)
+fmt.Println(y, num) You get the output: [1 2 3 4] 4
+```
+Copy function takes two parameters the destination and the source slice, and return the number of elements copied
+
+The copy function takes into account the length, the capacity not. So for example if we copy a 4 elements slice in a 2 we would get something as shown below.
+
+```
+x := []int{1, 2, 3, 4}
+y := make([]int, 2)
+num = copy(y, x)
+```
+
+y gets `[1 2]` and num is equal to 2
+
+### String and Runes and Bytes
+
+**NOTE**: A String in Go is **NOT** made of runes
+Go Strings is composed of a sequence of UTF-8 encoded code points
+
+```
+var s string = "Hello there"
+var b byte = s[6]
+```
+
+Go has some type conversion between runes, strings and bytes
+A single rune or byte can be concerted to a string
+
+```
+var a rune    = 'x'
+var s string  = string(a)
+var b byte    = 'y'
+var s2 string = string(b)
+
+```
+
+A string can be converted back and forth to a slice of bytes or runes:
+
+```
+var s string = "Hello, "
+var bs []byte = []byte(s)
+var rs []rune = []rune(s)
+fmt.Println(bs)
+fmt.Println(rs)
+
+When you run this code, you see: 
+
+[72 101 108 108 111 44 32 240 159 140 158]
+[72 101 108 108 111 44 32 127774]
+
+```
+## Maps
+
+The map type is written as \[ keyType \]valueType.
+
+```
+var nilMap map[string]int
+```
+
+The zero value for a map is nil
+
+Attempting to write to a nil map variable causes panic
+
+We can use a  `:=` declaration to create a map variable by assigning it a map literal
+
+```
+totalWins := map[string}int{}
+```
+this is what a nonempty map literal looks like
+
+```
+teams := map[string][]string {
+    "Orcas": []string{"Fred", "Ralph", "Bijou"},
+    "Lions": []string{"Sarah", "Peter", "Billie"},
+    "Kittens": []string{"Waldo", "Raul", "Ze"},
+}
+```
+
+Maps are like slices in several ways: 
+
+- Maps automatically grow as you add key-value pairs to them. 
+- If you know how many key-value pairs you plan to insert into a map, you can use make to create a map with a specific initial size. 
+- Passing a map to the len function tells you the number of key-value pairs in a map. 
+- The zero value for a map is nil. 
+- Maps are not comparable. You can check if they are equal to nil, but you cannot check if two maps have identical keys and values using == or differ using !=.
+
+The key for a map can be any comparable type. This means you cannot use a slice or a map as the key for a map.
+
+Use a map when the order of elements doesn’t matter. Use a slice when the order of elements is important.
+
+### Reading and Writing a Map
+
+#### The comma ok Idiom
+
+You can "unpack" (more returns two results the value of key if exists and true or false if key exists)
+
+```
+m := map[string]int{
+    "hello": 5,
+    "world": 0,
+}
+v, ok := m["hello"]
+fmt.Println(v, ok)
+
+v, ok = m["world"]
+fmt.Println(v, ok)
+
+v, ok = m["goodbye"]
+fmt.Println(v, ok)
+
+```
+
+Will output
+
+```
+5 true 
+
+0 true
+
+0 false
+```
+
+To delete a key in a map you can use the `delete` in built method as shown below}
+
+```
+m := map[string]int{
+    "hello": 5,
+    "world": 10,
+}
+delete(m, "hello")
+```
+
+#### Using Maps as Sets
+
+Go does not have set but you can simulate it using Map
+
+```
+intSet := map[int]bool{}
+vals := []int{5, 10, 2, 5, 8, 7, 3, 9, 1, 2, 10}
+
+for _, v := range vals {
+    intSet[v] = true
+}
+
+
+fmt.Println(len(vals), len(intSet))
+fmt.Println(intSet[5])
+fmt.Println(intSet[500])
+if intSet[100] {
+    fmt.Println("100 is in the set")
+}
+
+```
+
+Similarly we can use `struct ` 
+
+```
+intSet := map[int]struct{}{}
+vals := []int{5, 10, 2, 5, 8, 7, 3, 9, 1, 2, 10}
+for _, v := range vals {
+    intSet[v] = struct{}{}
+}
+
+if _, ok := intSet[5]; ok {
+    fmt.Println("5 is in the set")
+}
+
+```
+## Structs
+
+```
+
+type person struct {
+    name string
+    age  int
+    pet
+```
+
+A struct type is defined with the keyword type, the name of the struct type, the keyword struct, and a pair of braces ({}).
+
+You can define a struct type inside or outside of a function. A struct type that’s defined within a function can only be used within that function.
+
+Then we can use it as follow
+
+```
+julia := person{
+    "Julia",
+    40,
+    "cat",
+}
+```
+
+The second struct literal style looks like the map literal style:
+
+```
+beth := person{
+    age:  30,
+    name: "Beth",
+}
+```
+
+### Anonymous Structs
+
+You can also declare that a variable implements a struct type without first giving the struct type a name. This is called an anonymous struct:
+
+```
+var person struct {
+    name string
+    age  int
+	pet  string
+}
+
+person.name = "bob"
+person.age = 50
+person.pet = "dog"
+
+pet := struct {
+    name string
+    kind string
+}{
+    name: "Fido",
+    kind: "dog",
+}
+
+
+```
+
+### Comparing and converting structs
+
+Whether or not a struct is comparable depends on the struct’s fields. Structs that are entirely composed of comparable types are comparable; those with slice or map fields are not
+
+this: if two struct variables are being compared and at least one of them has a type that’s an anonymous struct, you can compare them without a type conversion if the fields of both structs have the same names, order, and types. You can also assign between named and anonymous struct types if the fields of both structs have the same names, order, and types:
+
+```
+type firstPerson struct {
+    name string
+    age  int
+}
+f := firstPerson{
+    name: "Bob",
+    age:  50,
+}
+var g struct {
+    name string
+    age  int
+}
+
+// compiles -- can use = and == between identical named and anonymous structs
+g = f
+fmt.Println(f == g)
+
+```

@@ -2,6 +2,7 @@
 tags:
   - Go
   - Programming-Language
+  - Golang
 ---
 ### Arrays - Too rigid to use directly
 

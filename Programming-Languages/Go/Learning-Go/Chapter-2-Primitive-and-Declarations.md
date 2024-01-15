@@ -2,6 +2,7 @@
 tags:
   - Go
   - Programming-Language
+  - Golang
 ---
 ## Built-in Types
 

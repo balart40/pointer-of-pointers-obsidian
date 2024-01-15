@@ -2,6 +2,7 @@
 tags:
   - Go
   - Programming-Language
+  - Golang
 ---
 ## Installing the Go tools
 

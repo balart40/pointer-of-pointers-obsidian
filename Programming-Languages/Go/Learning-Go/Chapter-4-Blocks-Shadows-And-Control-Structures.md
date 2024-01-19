@@ -445,3 +445,60 @@ func main() {
 
 ### Blank switches
 
+You can write a switch statement that doesn’t specify the value that you’re comparing against. This is called a **blank switch**.
+
+A regular switch only allows you to check a value for equality. A blank switch allows you to use any boolean comparison for each case.
+
+```
+words := []string{"hi", "salutations", "hello"}
+for _, word := range words {
+    switch wordLen := len(word); {
+    case wordLen < 5:
+        fmt.Println(word, "is a short word!")
+    case wordLen > 10:
+        fmt.Println(word, "is a long word!")
+	default:
+        fmt.Println(word, "is exactly the right length.")
+    }
+}
+```
+
+Just like a regular switch statement, you can optionally include a short variable declaration as part of your blank switch. 
+
+If you find that you have written a blank switch where all of your cases are equality comparisons against the same variable:
+
+```
+switch {
+case a == 2:
+    fmt.Println("a is 2")
+case a == 3:
+    fmt.Println("a is 3")
+case a == 4:
+    fmt.Println("a is 4")
+default:
+    fmt.Println("a is ", a)
+}
+```
+
+you should replace it with an expression switch statement:
+
+```
+switch a {
+case 2:
+    fmt.Println("a is 2")
+case 3:
+    fmt.Println("a is 3")
+case 4:
+    fmt.Println("a is 4")
+default:
+    fmt.Println("a is ", a)
+}
+```
+
+## Choosing between if and switch
+
+Favor blank switch statements over if/else chains when you have multiple related cases. Using a switch makes the comparisons more visible and reinforces that they are a related set of concerns.
+
+## Goto
+
+don't use goto ...

@@ -207,6 +207,342 @@ func divAndRemainder(numerator, denominator int) (result int, remainder int,
 
 If your function returns values, never use a blank return. It can make it very confusing to figure out what value is actually returned.
 
+## Functions are values
+
+The type of a function is built out of the keyword `func` and the types of the parameters and return values. This combination is called the signature of the function.
+
+Using functions as values allows you to create function as shown below
+
+```
+func add(i int, j int) int { return i + j }
+func sub(i int, j int) int { return i - j }
+func mul(i int, j int) int { return i * j }
+func div(i int, j int) int { return i / j }
+```
+
+And use it in maps as below
+
+```
+var opMap = map[string]func(int, int) int{
+    "+": add,
+    "-": sub,
+    "*": mul,
+    "/": div,
+}
+```
+
+And finally you can use it as shown below
+
+```
+func main() {
+    expressions := [][]string{
+        []string{"2", "+", "3"},
+        []string{"2", "-", "3"},
+        []string{"2", "*", "3"},
+		[]string{"2", "/", "3"},
+        []string{"2", "%", "3"},
+        []string{"two", "+", "three"},
+        []string{"5"},
+    }
+    for _, expression := range expressions {
+        if len(expression) != 3 {
+            fmt.Println("invalid expression:", expression)
+            continue
+        }
+        p1, err := strconv.Atoi(expression[0])
+        if err != nil {
+            fmt.Println(err)
+            continue
+        }
+        op := expression[1]
+        opFunc, ok := opMap[op]
+        if !ok {
+            fmt.Println("unsupported operator:", op)
+            continue
+        }
+        p2, err := strconv.Atoi(expression[2])
+        if err != nil {
+            fmt.Println(err)
+            continue
+        }
+        result := opFunc(p1, p2)
+        fmt.Println(result)
+    }
+}
+```
+
+### Function type declarations
+
+Just like you can use the type keyword to define a struct, you can use it to define a function type, too
+
+```
+type opFuncType func(int,int) int
+```
+
+then we can rewrite the opMap as below
+
+```
+var opMap = map[string]opFuncType {
+    // same as before
+}
+```
+
+### Anonymous Functions
+
+Not only can you assign functions to variables, you can also define new functions within a function and assign them to variables.
+Not only can you assign functions to variables, you can also define new functions within a function and assign them to variables.
+
+```
+func main() {
+    for i := 0; i < 5; i++ {
+        func(j int) {
+            fmt.Println("printing", j, "from inside of an anonymous function")
+        }(i)
+    }
+}
+```
+
+## Closures 
+
+Functions declared inside of functions are special; they are `closures`. This is a computer science word that means that functions declared inside of functions are able to access and modify variables declared in the outer function.
+
+### Passing functions as parameters
+
+Since functions are values and you can specify the type of a function using its parameter and return types, you can pass functions as parameters into functions.
+
+```
+type Person struct {
+    FirstName string
+    LastName  string
+    Age       int
+}
+
+people := []Person{
+    {"Pat", "Patterson", 37},
+    {"Tracy", "Bobbert", 23},
+    {"Fred", "Fredson", 18},
+}
+fmt.Println(people)
+```
+
+Then we can sort by the attribute
+
+```
+// sort by last name
+sort.Slice(people, func(i int, j int) bool {
+    return people[i].LastName < people[j].LastName
+})
+fmt.Println(people)
+```
+
+Also we can do
+
+```
+// sort by age
+sort.Slice(people, func(i int, j int) bool {
+    return people[i].Age < people[j].Age
+})
+fmt.Println(people)
+```
+
+Which will print
+
+```
+[{Pat Patterson 37} {Tracy Bobbert 23} {Fred Fredson 18}]
+[{Tracy Bobbert 23} {Fred Fredson 18} {Pat Patterson 37}]
+[{Fred Fredson 18} {Tracy Bobbert 23} {Pat Patterson 37}]
+```
+
+### Returning functions from functions
+
+Not only can you use a closure to pass some function state to another function, you can also return a closure from a function.
+
+```
+func makeMult(base int) func(int) int {
+    return func(factor int) int {
+        return base * factor
+    }
+}
+```
+
+We can use the aforementioned with
+
+```
+func main() {
+    twoBase := makeMult(2)
+    threeBase := makeMult(3)
+    for i := 0; i < 3; i++ {
+        fmt.Println(twoBase(i), threeBase(i))
+    }
+}
+```
+
+which will output
+
+```
+0 0
+2 3
+4 6
+```
+
+### Defer
+
+There are a few more things that you should know about defer.
+
+First, you can defer multiple closures in a Go function. 
+
+They run in last-in-first-out order; the last defer registered runs first.
+
+The code within defer closures runs after the return statement.
 
 
+```
 
+func main() {
+    if len(os.Args) < 2 {
+        log.Fatal("no file specified")
+    }
+    f, err := os.Open(os.Args[1])
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer f.Close()
+    data := make([]byte, 2048)
+    for {
+        count, err := f.Read(data)
+        os.Stdout.Write(data[:count])
+        if err != nil {
+            if err != io.EOF {
+                log.Fatal(err)
+            }
+            break
+        }
+    }
+}
+
+```
+
+You can use the return named values as shown below
+
+```
+func DoSomeInserts(ctx context.Context, db *sql.DB, value1, value2 string)
+                  (err error) {
+    tx, err := db.BeginTx(ctx, nil)
+    if err != nil {
+        return err
+    }
+    defer func() {
+        if err == nil {
+            err = tx.Commit()
+        }
+        if err != nil {
+            tx.Rollback()
+        }
+    }()
+    _, err = tx.ExecContext(ctx, "INSERT INTO FOO (val) values $1", value1)
+    if err != nil {
+        return err
+    }
+    // use tx to do more database inserts here
+    return
+```
+
+A common pattern in Go is for a function that allocates a resource to also return a closure that cleans up the resource.
+
+```
+func getFile(name string) (*os.File, func(), error) {
+    file, err := os.Open(name)
+    if err != nil {
+        return nil, nil, err
+    }
+    return file, func() {
+        file.Close()
+    }, nil
+}
+```
+
+Which we can use now
+
+```
+f, closer, err := getFile(os.Args[1])
+if err != nil {
+    log.Fatal(err)
+}
+defer closer()
+```
+
+## Go is call by value
+
+
+```
+type person struct {
+    age  int
+    name string
+}
+```
+
+Then we use a function that modifies its vlues
+
+
+```
+func modifyFails(i int, s string, p person) {
+    i = i * 2
+    s = "Goodbye"
+    p.name = "Bob"
+}
+```
+
+when run 
+
+```
+func main() {
+    p := person{}
+    i := 2
+    s := "Hello"
+    modifyFails(i, s, p)
+    fmt.Println(i, s, p)
+}
+```
+
+which will output showing the modifications wont stick
+
+```
+2 Hello {0 }
+```
+
+for maps and slices this wont happen since they are  implemented with pointers
+
+```
+func modMap(m map[int]string) {
+    m[2] = "hello"
+    m[3] = "goodbye"
+    delete(m, 1)
+}
+
+func modSlice(s []int) {
+    for k, v := range s {
+        s[k] = v * 2
+    }
+    s = append(s, 10)
+} We then call these functions from main: func main() {
+    m := map[int]string{
+        1: "first",
+        2: "second",
+    }
+	modMap(m)
+    fmt.Println(m)
+
+    s := []int{1, 2, 3}
+    modSlice(s)
+    fmt.Println(s)
+}
+
+```
+
+which will output
+
+```
+map[2:hello 3:goodbye]
+[2 4 6]
+
+```

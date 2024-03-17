@@ -35,3 +35,13 @@ That flexibility and control over your time is an unseen return on wealth.
 
 Having more control over your time and options is becoming one of the most valuable currencies in the world.
 
+## Chapter 11 Reasonable > Rational
+
+With it comes something that often goes overlooked: Do not aim to be coldly rational when making financial decisions. Aim to just be pretty reasonable. Reasonable is more realistic and you have a better chance of sticking with it for the long run, which is what matters most when managing money.
+
+That philosophy—aiming to be reasonable instead of rational—is one more people should consider when making decisions with their money.
+
+“minimizing future regret” is hard to rationalize on paper but easy to justify in real life.
+
+Neither rational or irrational ... reasonable.
+

@@ -44,4 +44,14 @@ That philosophy—aiming to be reasonable instead of rational—is one more peop
 “minimizing future regret” is hard to rationalize on paper but easy to justify in real life.
 
 Neither rational or irrational ... reasonable.
+## Chapter 12 Surprise
+
+The most important events in historical data are the big outliers, the record-breaking events.
+
+1. You’ll likely miss the outlier events that move the needle the most.
+2. History can be a misleading guide to the future of the economy and stock market because it doesn’t account for structural changes that are relevant to today’s world.
+
+The correct lesson to learn from surprises is that the world is surprising.
+
+That doesn’t mean we should ignore history when thinking about money. But there’s an important nuance: The further back in history you look, the more general your takeaways should be. General things like people’s relationship to greed and fear, how they behave under stress, and how they respond to incentives tend to be stable in time. The history of money is useful for that kind of stuff.
 

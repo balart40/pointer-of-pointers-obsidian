@@ -175,4 +175,99 @@ Function as a service
 - Faster time to market
 - Reduced development costs
 - improved resilience
-- pay per use pricing model
+- pay-per-use pricing model
+
+### The benefits of modern cloud application development
+
+With model cloud applications software is now
+- Flexible
+- Scalable
+- Uses the latest technologies
+
+- **Monolithic applications**
+	- Required application components to be developed and deployed as a single, tightly coupled unit, typically using a single programming language
+
+A**rchitecture**
+
+Modern cloud applications are typically built as a collection of microservices
+
+**Deployment**
+- Managed services take care of the day-to-day management of cloud-based infrastructure, such as:
+	- Patching 
+	- Upgrades
+	- Monitoring
+
+**Scalability**
+- modern cloud-based applications can easily be scaled up or down to meet user demands
+
+**Highly available and resilient**
+- Load balancing: Distributing network traffic evenly across multiple servers that support an application
+- Automatic failover Allows a cloud-based application to automatically switch to a backup server id a failure occurs
+
+Monitoring and management tools
+- Allows developers to quickly identify and respond to issues
+#### Rehosting legacy applications in the cloud
+
+Lift and shift
+- Cost savings
+- Scalability
+- Reliability
+- Security
+
+Complexity, Risk, Vendor lock-in
+
+Google Cloud VMware Engine
+
+Big query, AI/ML Google Kubernetes Engine
+
+Bare Metal Solution
+
+A fully managed cloud infrastructure solution, that lets organizations run their oracle workloads on dedicated, bare metal servers in the cloud
+### API - Application Programming Interfaces
+
+An API is a set of instructions that lets different software programs communicate with each other.
+
+Using APIs can create new business opportunities for organizations and improve online experiences for users
+
+- Can be used to create new products and services
+- Can be used to generate new revenue streams
+- Can create partnerships
+#### API Management
+
+APIgee API Management 
+- google cloud's API management service to operate APIs with enhanced scale, security and automation
+
+- Help organizations to secure their APIs
+- tracks and analyzes API usage
+- It helps with developing and deploying APIs
+- It offers API versioning, API documentation, and even API throttling
+
+AccuWeather
+- API
+- Global partners
+
+API -> Individual developers
+### Hybrid and multi cloud
+
+- Compliance concerns
+
+Hybrid 
+- On premises and google cloud
+- Private cloud and google cloud interconnection
+
+Multicloud
+
+This lets organizations
+- Keep parts of the system infrastructure on-premises while they move other parts to the cloud
+- Move only specific workloads to the cloud
+- benefit from the flexibility scalability and lower computing costs
+- Add specialized services to the organization's computing resources toolkit
+
+GKE enterprise
+
+A production-ready platform for running Kubernetes applications across multiple cloud environments
+- Multicloud and hybrid-cloud support
+- Centralized management
+- Security and compliance
+- Networking and load balancing
+- Monitoring and logging

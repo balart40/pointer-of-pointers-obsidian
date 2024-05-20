@@ -17,11 +17,9 @@ a is purely the name or address of a memory location in the machine
 ##### Int 
 
 Int is the default type for integers in Go, even lengths
-
 ##### Floating point numbers
 
 float32 float64
-
 ### Simple Declarations
 
 Anywhere
@@ -71,26 +69,24 @@ func main() {
 
 ##### bool (boolean) 
 
-George boole
-
-has two values false, true
-these values are not convertible to/from integers!
+- George boole
+- has two values false, true
+- these values are not convertible to/from integers!
 ##### error
 
-A special type with one function, Error()
-an error may be nil or non-nil
-
-Pointers are physically addresses, logically opaque
-
-a pointer may be nil or non-nil
-no pointer manipulation except through package unsafe
-
+- A special type with one function, Error()
+- an error may be nil or non-nil
+ 
+**Pointer**
+- Pointers are physically addresses, logically opaque
+- a pointer may be nil or non-nil
+- no pointer manipulation except through package unsafe
 #### Initialization
 
 Go initializes all variables to "zero" by default if you don't
 - All numerical types get 0
 - bool gets false
-- strings gets ""
+- strings gets "" (the empty string, length 0)
 - Everything else gets nil
 	- Pointers
 	- slices
@@ -100,12 +96,49 @@ Go initializes all variables to "zero" by default if you don't
 	- interfaces
 
 For aggregate types all members get their "zero" values
-
 #### Constants
 
-Means immutable
+- Means immutable
+- Only numbers, strings, and booleans can be constants (immutable)
+- constant can be a literal or a compile-time function of a constant
+- **Reason:**
+	- Concurrency
+		- GO is a concurrent programming language from the get-go
+		- Is good to have constants that are safe in a concurrent programming language
 
-Only numbers, strings, and booleans can be constants (immutable)
+### Example
 
-constant can be a literal or a compile-time function of a constant
+```
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	var sum float64
+	var n int
+	
+
+	for {
+		var val float64
+		
+		_, err := fmt.Fscanln(os.Stdin, &val)
+		if err != nil {
+			break
+		}
+		
+		sum += val
+		n ++
+	}
+	
+	if n == 0 {
+		fmt.Fprintln(os.Stderr, "no values")
+		os.Exit(-1)
+	}
+
+	fmt.Println("The Average is: ", sum/float64(n))
+}
+```
 

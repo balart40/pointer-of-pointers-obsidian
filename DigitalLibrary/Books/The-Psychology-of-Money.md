@@ -77,3 +77,8 @@ You have to survive to succeed
 The ability to do what you want, when you want,. for s long as you want, has an infinite ROI.
 
 The biggest single point of failure with money is a sole reliance on a paycheck to fund short-term spending needs, with no savings to create a gap between what you think your expenses are and what they might be in the future.
+## Chapter 14 You'll change
+
+Imagining a goal is easy and fun. Imagining a goal in the context of the realistic life stresses that grow with competitive pursuits is something entirely different.
+
+Sunk costs - anchoring decisions to past efforts that can't be refunded.

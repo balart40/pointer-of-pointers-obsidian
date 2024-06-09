@@ -82,3 +82,8 @@ The biggest single point of failure with money is a sole reliance on a paycheck 
 Imagining a goal is easy and fun. Imagining a goal in the context of the realistic life stresses that grow with competitive pursuits is something entirely different.
 
 Sunk costs - anchoring decisions to past efforts that can't be refunded.
+## Chapter 15 Nothing's Free
+
+"Every job looks easy when you're not the one doing it" - Jeff Immelt
+
+Like everything else worthwhile, successful investing demands a price. But is currency is not dollars and cents. It's volatility, fear, doubt uncertainty, and regret - all of which are easy to overlook, until we are dealing with them in real time.

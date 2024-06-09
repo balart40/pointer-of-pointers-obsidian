@@ -98,3 +98,12 @@ Profits will always be chased
 A takeaway here is that few things matter more with money than understanding your own time horizon and not being persuaded by the actions and behaviors of people playing different games than you are.
 
 the main thing I can recommend is going out of your way to identify what game you're playing.
+## Chapter 17 The seduction of pessimism
+
+“I am not an optimist. I am a very serious possibilist." - Hans Rosling
+
+Tell someone that everything will be great and they’re likely to either shrug you off or offer a skeptical eye. Tell someone they’re in danger and you have their undivided attention.
+
+John Stuart Mill wrote in the 1840s: “I have observed that not the man who hopes when others despair, but the man who despairs when others hope, is admired by a large class of persons as a sage.”
+
+Growth is driven by compounding, which always takes time. Destruction is driven by single points of failure, which can happen in seconds, and loss of confidence, which can happen in an instant.

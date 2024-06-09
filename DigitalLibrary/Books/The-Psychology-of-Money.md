@@ -87,3 +87,14 @@ Sunk costs - anchoring decisions to past efforts that can't be refunded.
 "Every job looks easy when you're not the one doing it" - Jeff Immelt
 
 Like everything else worthwhile, successful investing demands a price. But is currency is not dollars and cents. It's volatility, fear, doubt uncertainty, and regret - all of which are easy to overlook, until we are dealing with them in real time.
+## Chapter 16 You and Me
+
+In hindsight we're more likely to point cynical fingers than to learn lessons
+
+The formation of bubbles isn't much about people irrationally participating in long-term investing,. They're about people somewhat rationally moving forward toward short-term trading to capture momentum that had been feeding on itself.
+
+Profits will always be chased
+
+A takeaway here is that few things matter more with money than understanding your own time horizon and not being persuaded by the actions and behaviors of people playing different games than you are.
+
+the main thing I can recommend is going out of your way to identify what game you're playing.

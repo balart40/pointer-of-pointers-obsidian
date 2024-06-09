@@ -107,3 +107,10 @@ Tell someone that everything will be great and they’re likely to either shrug 
 John Stuart Mill wrote in the 1840s: “I have observed that not the man who hopes when others despair, but the man who despairs when others hope, is admired by a large class of persons as a sage.”
 
 Growth is driven by compounding, which always takes time. Destruction is driven by single points of failure, which can happen in seconds, and loss of confidence, which can happen in an instant.
+## Chapter 18 When You'll believe anything
+
+There is no greater force in finance than room for error, and the higher the stakes, the wider it should be.
+
+1. The more you want something to be true, the more likely you are to believe a story that overestimates the odds of being true.
+2. Everyone has a incomplete view of the world. But we form a complete narrative to fill the gaps.
+

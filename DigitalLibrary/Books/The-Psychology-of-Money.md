@@ -113,4 +113,44 @@ There is no greater force in finance than room for error, and the higher the sta
 
 1. The more you want something to be true, the more likely you are to believe a story that overestimates the odds of being true.
 2. Everyone has a incomplete view of the world. But we form a complete narrative to fill the gaps.
+## Chapter 19 All together now
 
+Go out of your way to find humility when things are going right and forgiveness/ compassion when they go wrong.
+
+The world is big and complex. Luck and risk are both real and hard to identify. 
+Do so when judging both yourself and others. 
+Respect the power of luck and risk and you’ll have a better chance of focusing on things you can actually control. 
+You’ll also have a better chance of finding the right role models.
+
+Less ego, more wealth. Saving money is the gap between your ego and your income, and wealth is what you don’t see.
+
+Manage your money in a way that helps you sleep at night.
+
+The foundation of, “does this help me sleep at night?” is the best universal guidepost for all financial decisions.
+
+If you want to do better as an investor, the single most powerful thing you can do is increase your time horizon. Time is the most powerful force in investing.
+
+Become OK with a lot of things going wrong. You can be wrong half the time and still make a fortune,
+
+Use money to gain control over your time, because not having control of your time is such a powerful and universal drag on happiness. The ability to do what you want, when you want, with who you want, for as long as you want to, pays the highest dividend that exists in finance.
+
+Respect and admiration. And you’re more likely to gain those things through kindness and humility than horsepower and chrome. 
+
+Save. Just save. You don’t need a specific reason to save.
+
+Define the cost of success and be ready to pay it.
+
+Worship room for error. A gap between what could happen in the future and what you need to happen in the future in order to do well is what gives you endurance, and endurance is what makes compounding magic over time.
+
+Avoid the extreme ends of financial decisions.
+
+You should like risk because it pays off over time. But you should be paranoid of ruinous risk because it prevents you from taking future risks that will pay off over time. 
+
+Define the game you’re playing, and make sure your actions are not being influenced by people playing a different game.
+
+Respect the mess. 
+There is no single right answer; just the answer that works for you.
+
+
+
+Morgan Housel. The Psychology of Money (p. 188). Harriman House. Kindle Edition. 

@@ -150,7 +150,17 @@ Define the game you’re playing, and make sure your actions are not being influ
 
 Respect the mess. 
 There is no single right answer; just the answer that works for you.
+## Chapter 20 All together now
 
+The most important financial decisions are not made in spreadsheets or in textbooks. They are made at the dinner table.
 
+Nassim Taleb explained: “True success is exiting some rat race to modulate one’s activities for peace of mind.”
+## Chapter 21 Confessions
 
-Morgan Housel. The Psychology of Money (p. 188). Harriman House. Kindle Edition. 
+I can afford to not be the greatest investor in the world, but I can’t afford to be a bad one.
+
+My investing strategy doesn’t rely on picking the right sector, or timing the next recession. It relies on a high savings rate, patience, and optimism that the global economy will create value over the next several decades.
+
+But to each their own. No one is crazy.
+
+Morgan Housel. The Psychology of Money (p. 197). Harriman House. Kindle Edition. 

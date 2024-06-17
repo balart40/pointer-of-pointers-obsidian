@@ -150,12 +150,11 @@ Define the game you’re playing, and make sure your actions are not being influ
 
 Respect the mess. 
 There is no single right answer; just the answer that works for you.
-## Chapter 20 All together now
+## Chapter 21 Confessions
 
 The most important financial decisions are not made in spreadsheets or in textbooks. They are made at the dinner table.
 
 Nassim Taleb explained: “True success is exiting some rat race to modulate one’s activities for peace of mind.”
-## Chapter 21 Confessions
 
 I can afford to not be the greatest investor in the world, but I can’t afford to be a bad one.
 

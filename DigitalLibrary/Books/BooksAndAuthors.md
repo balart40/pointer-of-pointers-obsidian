@@ -3,7 +3,7 @@ tags:
   - Books
   - authors
 ---
-[[MyBooksAndAuthors]]
+[[BooksAndAuthors]]
 
 | Book                    |         Author |
 | :---------------------- | -------------: |

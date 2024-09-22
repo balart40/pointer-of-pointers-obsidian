@@ -122,3 +122,24 @@ We cannot become conscious in a hostile environment, specially not at first.
 We need to be in a place where it will be okay to let down some of our defenses, take chances and  let ourselves go.
 
 It might be helpful to try to practice breathing through this, and try not to judge the experience
+
+I love to spend time rehashing past stressful experiences in my mind.
+I was reliving the past, I was worrying about multiple inevitable calamities that could  cause me future stress.
+## 2 A New Theory of Trauma
+
+**Disassociation**
+
+A coping mechanism of physical and mental disconnection from our environment in response to consistent stress or overwhelm.  A person is physically there yet mentally gone.  Its a protective response to an event or situation that feels to big or threatening for the conscious mind to attend to.
+
+Common on people with child trauma
+### Trauma: a misunderstood concept
+
+Trauma can range from extreme abuse to high level of anxiety in the family
+
+We were united in a cycle of outrage and anxiety 
+
+The body keeps the score: Brain, Mind and Body in the healing of trauma
+
+It affects the nervous system's fight or flight responsel
+### Widening the definition of trauma
+

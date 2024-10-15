@@ -140,6 +140,19 @@ We were united in a cycle of outrage and anxiety
 
 The body keeps the score: Brain, Mind and Body in the healing of trauma
 
-It affects the nervous system's fight or flight responsel
+It affects the nervous system's fight or flight response
 ### Widening the definition of trauma
+
+Many patients followed the same pattern
+- Perfectionists
+- Overachievers
+- Or addicted to different substances or behaviors
+- A lot of anxiety, depression, lack of confidence
+- low self-worth
+- An obsession of being viewed certain way
+
+The patterns were telling a story
+
+**Trauma occurred when we consistently betrayed ourselves for love, where consistently treated in a way that made us feel unworthy r unacceptable resulting in a severed connection to out authentic self**
+### Childhood conditioning 
 

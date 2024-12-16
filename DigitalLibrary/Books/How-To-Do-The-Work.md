@@ -153,6 +153,18 @@ Many patients followed the same pattern
 
 The patterns were telling a story
 
-**Trauma occurred when we consistently betrayed ourselves for love, where consistently treated in a way that made us feel unworthy r unacceptable resulting in a severed connection to out authentic self**
+**Trauma occurred when we consistently betrayed ourselves for love, where consistently treated in a way that made us feel unworthy or unacceptable resulting in a severed connection to out authentic self**
+
+Trauma creates the fundamental belief that we must betray who we are in order to survive
 ### Childhood conditioning 
 
+A parent-figure's role is to be a guide. 
+A loving parental relationship provides a secure base for a child to return to as they venture out into life, with all the ups and downs associated with this great transition.
+
+Instead the guide or parent figure has provided a base of security and resilience for the child to return to when hard times come.
+
+If parent-figures have not healed or even recognized their unresolved traumas, they cannot consciously navigate their own path in life, let alone act as trustworthy guides for someone else.
+
+It's very common for parent-figures to project their own unresolved traumas onto their children,
+
+When even well-meaning parent figures react under the influence of their own unconscious wounds, they instead of offering guidance, may attempt to control, micromanage  o coerce the a child to follow their will.

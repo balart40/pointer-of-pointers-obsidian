@@ -104,3 +104,26 @@ Gobernar sobre muchas personas como si fueran poco es una cuestión de dividirla
 Si quieres fingir debilidad para inducir la arrogancia en tus enemigos
 primero has de ser extremadamente fuerte porque solo entonces puedes pretender ser debil.
 ## Sobre lo lleno y lo vacio
+
+Si haces que los adversarios vengan a ti para combatir, su feurza estara siempre vacia.
+
+Lo que desanima a los adversarios de ir hacia ti es la probabilidad de sufrir daños.
+
+Se extremadamente sutil, discreto, hasta el punto de no tener forma. Se completamente misterioso y confidencial, hasta el punto de ser silencioso.
+
+De esta manera podrás dirigir el destino de tus adversarios
+
+Cuando no quieras entrar en batalla, incluso si trazas una linea en el terreno que quieres conservar, el adversario no puede combatir contigo por que le das una falsa pista.
+
+Como tu formacion no esta a la vista, el adversario dividira seguramente sus fuerzas.
+
+No han de conocer donde piensas librar la batalla, por que cuando no se conoce, el enemigo destaca muchos puestos de vigilancia, y en el momento en el que se establecen numerosos puestos solo tienes que combatir contra pequeñas unidades.
+
+SI haces que los adversarios no sepan el lugar y la fecha de la batalla, siempre puedes vencer
+
+Determinar los cambios apropriados, significa no repetir las estrategias previas para obtener la victoria.
+
+Se llama genio a la capacidad de obtener la victoria cambiando y adaptandose segun el enemigo.
+
+## Sobre el enfrentamiento directo e indirecto
+

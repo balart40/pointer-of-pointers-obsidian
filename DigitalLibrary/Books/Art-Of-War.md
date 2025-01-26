@@ -127,3 +127,46 @@ Se llama genio a la capacidad de obtener la victoria cambiando y adaptandose seg
 
 ## Sobre el enfrentamiento directo e indirecto
 
+Una fuerza militar se establece mediante la estrategia en el sentido de que distraes al enemigo para que no pueda conocer cuál es tu situacion.
+
+La regla general se las operaciones militates es desproveer de alimentos al enemigo todo lo que se pueda.
+
+Sin embargo en las localidades donde la gente no tiene mucho, es necesario dividir a las tropas en grupos mas prqueños.
+
+Actúa después de haber hecho una estimación.
+Gana el que conoce primera la medida de lo que esta lejos y lo que esta cerca.
+
+Las palabras no son escuchadas, para eso se hacen los símbolos y los tambores
+Las banderas y los estandartes se hacen a causa de la ausencia de visibilidad.
+
+Una vez unificados, el valiente no puede actuar solo, ni el tímido puede retirarse: esta es la regla general del empleo en grupo.
+
+Utilizar el orden para enfrentarse al desorden, utilizar la calma para enfrentarse con los que se agitan, esto es dominar el corazon
+
+Siempre hay que dejarle una salida a un ejercito rodeado.
+Muéstrales una manera de salvar la vida para que no estén dispuestos  a luchar hasta la muerte.
+
+No presiones a un amigo desesperado.
+Un animal agotado seguirá luchando, pues esa es la ley de la naturaleza.
+## sobre los nueve cambios
+
+Hay rutas que no debes usar, ejércitos que no han de ser atacados, ciudades que no deben ser rodeadas, terrenos que no se deben combatir y ordenes de gobernantes civiles que no deben ser obedecidas.
+
+Por ello, lo que retiene a los adversarios es el daño, lo que les mantiene ocupados es la acción, y los que les motiva es el beneficio
+Cansa a los enemigos manteniéndolos ocupados y no dejándoles respirar
+
+antes hay de desarrollar un pueblo prospero, una sociedad armoniosa y una manera ordenada de vivir
+
+Si puedes recordar siempre el peligro cuando estas a salvo y el caos en tiempos de orden, permanece atento al peligro y al caos mientras no tengan todavía forma, y evítalos antes de que se presenten; esta es la mejor estrategia de todas
+
+Los cinco rasgos peligrosos en los generales
+- los que están dispuestos a morir, pueden perder la vida
+- Los que quieren preservar la vida, ser hecho prisioneros
+- Apasionados, pueden ser ridiculizados 
+- Puritanos, deshonrados
+- Compasivos, turbados 
+
+Su acción y su no accion son cuestiones de estrategi, y no pueden ser complacidos ni enfadados.
+
+## Sobre la distribucion de los medios
+

@@ -78,7 +78,6 @@ Triunfan aquellos que:
 - tienen generales competentes y no limitados por sus gobiernos civiles.
 
 Si conoces a los demas y te conoces a tu mismo, ni en cien batallas correras peligro si no
-
 ## Sobre la medida en la disposicion de los medios
 
 Hacerte invencible significa conocerte a ti mismo; aguardar para descubrir la vulnerabilidad del adversario significa conocer a los demas.
@@ -167,6 +166,75 @@ Los cinco rasgos peligrosos en los generales
 - Compasivos, turbados 
 
 Su acción y su no accion son cuestiones de estrategi, y no pueden ser complacidos ni enfadados.
-
 ## Sobre la distribucion de los medios
+
+La idea de poner muchos obstaculos entre la maleza es hacerte pensar que existen tropas emboscadas escondidas en medio de ella.
+
+Las señales se utilizan para unificar el grupo; asi pues si se desplaza de aca para alla sin orden ni concierto, significa que sus filas estan confusas
+
+Ser violento al principio y terminar despues temiendo a los propios soldados es el colmo de la ineptitud
+
+cuando las ordenes son razonables, justas, sencillas, claras y consecuentes, existe una satisfaccion reciproca entre el lider y el grupo.
+## Sobre la topologia
+
+Las seis maneras de ser derrotado
+1. No calibrar las fuerzas
+2. la ausencia de un sistema claro de recompensas 
+3. insuficiencia de entrenamiento
+4. pasion irracional
+5. ineficacia de la ley y el orden
+## Sobre las nueve clases de terreno
+
+- Terreno de dispersion
+	- intereses locales luchan entre si
+- Terreno lijero
+	- aquel que no es penetrado con profundidad
+- Terreno clave
+	- aquel que es ventajoso adquirir
+- Terreno de comunicadcion
+	- accessible
+- Terreno de interseccion
+	- rodeado de territorios rivales
+	- obten este terreno para que los demas se ponga de tu lado
+- Terreno dificil
+	- en profundidad y ajeno
+- Terreno desfavorable
+- Terreno cercado
+- Terreno mortal
+
+Emplea a tus soldados solo en combatir , sin comunicarles tu estrategia.
+
+Colocalos en una situacion de posible exterminio y peligro y entonces lucharan para vivir y sobreviviran
+
+El rigor en los cuarteles generales en la fase de planificacion se refiere al mantenimiento del secreto
+## Sobre el arte de atacar por el fuego
+
+Cinco clases de ataques mediante el fuego
+- Quemar a las personas 
+- quemar los suministros
+- quemar el euqipo
+- quemar los almacenes 
+- quemar las armas
+
+No es eficaz luchar contra el impetu del fuego, porque el enemigo luchara en este caso hasta la muerte
+
+La utilización del fuego para apoyar un ataque significa claridad, y la utilización del agua para apoyar un ataque significa fuerza.
+
+El agua puede incomunicar, pero no puede arrasar.
+
+No vale la pena movilizar un ejercito por razones insignificantes:
+Las armas solo debn utilizarse cuando no existe otro remedio.
+## Sobre la concordia y la discordia
+
+Existen cinco clases de espias:
+- **El espia nativo**
+- **El espia interno**
+- **el doble agente**
+- **el espia liquidable**
+- **El espia flotante**
+
+Así, solo un gobernante brillante o un general sabio que pueda utilizar a los mas inteligentes para el espionaje, puede estar seguro de la victoria.
+
+No sera ventajoso para el ejercito actual sin conocer la situacion del enemigo, 
+y conocer la situacion del enemigo no es posible sin el espionaje.
 

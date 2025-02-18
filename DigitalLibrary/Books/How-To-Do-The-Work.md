@@ -161,6 +161,8 @@ Trauma creates the fundamental belief that we must betray who we are in order to
 A parent-figure's role is to be a guide. 
 A loving parental relationship provides a secure base for a child to return to as they venture out into life, with all the ups and downs associated with this great transition.
 
+A guide is largely nonjudgemental, allowing the child to exist as they are.
+
 Instead the guide or parent figure has provided a base of security and resilience for the child to return to when hard times come.
 
 If parent-figures have not healed or even recognized their unresolved traumas, they cannot consciously navigate their own path in life, let alone act as trustworthy guides for someone else.
@@ -168,3 +170,28 @@ If parent-figures have not healed or even recognized their unresolved traumas, t
 It's very common for parent-figures to project their own unresolved traumas onto their children,
 
 When even well-meaning parent figures react under the influence of their own unconscious wounds, they instead of offering guidance, may attempt to control, micromanage  o coerce the a child to follow their will.
+
+We learn what a relationship looks like from watching those closest to us in relationships.
+
+We learn how to feel bout our bodies y observing how our parents feel about their bodies.
+
+We learn whether or not to prioritize self care.
+
+How many aspects of your life have you actually chosen -- and how many have you inherited?
+
+This reckoning, often unearths deep reservoirs of pain, sadness, and even anger that have long been suppressed so that you could, at least on a surface level, function and move on.
+
+How a parent-figure treated you as a child is not a reflection of who you are. 
+
+Or even who they are.
+
+You don't need to be a reflection of their unprocessed trauma.
+## The archetypes of childhood trauma
+
+### Having a Parent Who Denies Your Reality
+
+When a parent-figure denies a child's reality, they are unconsciously teaching the child to reject their intuition, their "gut" feeling.
+
+We learn that our judgement cannot be trusted and look to others to shape our reality.
+
+Through repeated similar experiences, a child is taught that their perception of reality and related emotional experiences are not trustworthy.

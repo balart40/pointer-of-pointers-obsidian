@@ -91,6 +91,54 @@ It operates only according to their images, without feeling.
 Define narcissistic as a person whose behavior is not motivated by feeling.
 ### Narcissism versus hysteria
 
+Narcissist lack what might be considered even a normal super-ego, providing some moral limits to sexual and other behavior.
 
+Without sense of limits they tend to "act out" their impulses
 
+There is an absence of self-restraint in their responses to people and situations.
 
+The narcissistic predisposition is to depression whereas hysteria is to anxiety.
+
+The denial of feelings and its relation to a lack of limits.
+### Is there a primary narcissism?
+
+Early stage of object-choice.
+Possible failure of child to move from the stage of self-love (primary narcissism) to true object (other directed)
+
+**Narcissism results from a distortion of development**. We need to look for something the parents did to the child rather than simply what they failed to do.
+
+Children are often subjected to both kinds of trauma: Parents fail to provide sufficient nurturing and support on an emotional level by not recognizing and respecting their children's individuality.
+
+But they also seductively try to mold them according to their image of how they should be.
+
+**Children are often accused of seeking power over their parents when all they want is to have their needs understood and responded to.**
+
+The parent's narcissism is projected onto the child: "I'm special therefore, my child is special"
+### Different types of narcissistic disorder 
+
+Narcissism is a spectrum, there are various degrees of disturbance or loss of self.
+
+5 types of narcissistic disorder, according to the severity of the disorder and its special features
+Thus the differences are both quantitative and qualitative
+- Phalic-Narcissistic character
+- Narcissistic character
+- Borderline personality
+- Psychopathic personality
+- Paranoid personality 
+
+The degree to which the persona identifies with his or her feelings is inversely proportional to the degree of narcissism
+
+![[narcissistic_scale.png]]
+
+Narcissism as egotism, as an image rather than a feeling focus.
+
+The antithesis between the ego (a mental organization) and the self (a body/feeling entity) exists in all adults rather than anyone who has developed a certain self-consciousness, which derive from the ability to form a self-image.
+
+Because this ability is a function of the ego, narcissism is properly seen as disturbance of ego development.
+
+Having a self-image is not narcissistic unless the image has a measure of grandiosity.
+And what is grandiose can only be determined by reference to the actual self.
+
+Grandiosity and thus narcissism, is a function of the discrepancy between the image and the self.
+
+### The Phallic-Narcissistic Character

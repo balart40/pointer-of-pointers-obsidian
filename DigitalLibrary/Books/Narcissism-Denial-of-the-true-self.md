@@ -140,5 +140,30 @@ Having a self-image is not narcissistic unless the image has a measure of grandi
 And what is grandiose can only be determined by reference to the actual self.
 
 Grandiosity and thus narcissism, is a function of the discrepancy between the image and the self.
-
 ### The Phallic-Narcissistic Character
+
+Behavior of men whose egos are invested in the seduction of women.
+
+1926 Wilhelm Reich introduced this term, between compulsion neurosis and hysteria.
+
+"Typical behavior is self-confident. often arrogant, elastic vigorous and often impressive"
+
+Importance of this phallic-narcissism is two fold.
+**1**
+- Underlines the intimate connection between narcissism and sexuality, specifically in terms of erective potency.
+**2**
+- Relationship with loved one is more narcissistic than object-libidinal. 
+- They ofter show strong attachments to people and things
+- Exaggerated display of self-confidence, dignity and superiority
+- Thanks to the free aggression is strong, impulsive, energetic and usually productive.
+
+Hern emotional investment in me provided an extra measure of energy and excitement to my personality. Yet her need to posses me, and thus control me diminished my sense of self.
+In this situation , my ego became bigger than my self, making me a narcissistic personality.
+
+Hysteria comes from the Greek hystera or "womb"
+
+Female counterpart would be hysterical.
+
+Preoccupied with her sexual image.
+She is too, strong, impulsive, energetic and usually productive.
+### The narcissistic character

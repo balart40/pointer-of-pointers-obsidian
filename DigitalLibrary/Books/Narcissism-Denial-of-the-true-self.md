@@ -160,10 +160,52 @@ Importance of this phallic-narcissism is two fold.
 Hern emotional investment in me provided an extra measure of energy and excitement to my personality. Yet her need to posses me, and thus control me diminished my sense of self.
 In this situation , my ego became bigger than my self, making me a narcissistic personality.
 
-Hysteria comes from the Greek hystera or "womb"
+Hysteria comes from the Greek hysteria or "womb"
 
 Female counterpart would be hysterical.
 
 Preoccupied with her sexual image.
 She is too, strong, impulsive, energetic and usually productive.
 ### The narcissistic character
+
+Narcissistic characters can display numerous achievements and seeming success, for they often shown an ability to get along in the world of power and money.
+
+Difference between the narcissistic character and the phallic is their fantasies.
+- Phallic, women look him in admiration and men with envy
+	- He recognize he may be inferior to others
+### The borderline personality 
+
+Their façade crumbles under emotional stress and the person reveals the helpess and frightened child within.
+
+Other may present clinging personalities.
+
+What differs, however is the degree of ego strength behind these fantasies.
+
+Sometimes they are more afraid of success.
+
+patient - "Sex should just be offered to me"
+
+We have known for a long time that feelings of superiority and inferiority exists together.
+
+Borderlines usually are with themselves totally great or totally worthless
+
+The fantasy of "secret" greatness may then become all the more necessary, to counter the reality threat of worthlessness
+
+Granted, an exact diagnosis is not necessary to begin treatment, for one should treat the individual, not the symptom.
+
+Character disorder, would be expected to have a better developed ego and sense of self than the borderline personality. 
+
+We may seek the cause for grandiosity in the parent's relation to the child, rather than in the child's relation to the parents.
+
+How children see themselves often reflects how their parents saw and treated them.l
+### The psychopathic personality
+
+We should expect a greater degree of grandiosity, wether manifest or latent.
+
+Narcissistic characters and psychopathic personalities show a need for instant gratification, an inability to contain desire or tolerate frustration.
+
+Other respects - Their ability to manipulate people, organize and promote schemes, and attract followers 
+
+Narcissistic characters and psychopathic personalities are anything  but infantile.
+### The paranoid personality 
+

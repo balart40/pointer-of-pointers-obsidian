@@ -209,3 +209,65 @@ Other respects - Their ability to manipulate people, organize and promote scheme
 Narcissistic characters and psychopathic personalities are anything  but infantile.
 ### The paranoid personality 
 
+They think people is looking at them, talking about them and conspiring against them because they are too important.
+
+## The Role of the image
+
+Contrary to people's belief narcissist lack of care for their own needs.
+Often their behavior is self-destructive.
+
+Narcissism denotes an investment on one's image, not their real self.
+### The myth of narcissus
+
+Narcissists are condemned to fall in love with their image  -- that is, direct their libido to their ego.
+Narcissus denied his inner being in favor of his appearance
+### AUTOEROTICISM AND NARCISSISM
+
+In the neuroses, sexual interest (or libido) is still attached to the object in the form of fantasy
+In schizophrenia, on the other hand, the libido is withdrawn from the object or its image and focused on the self-image producing megalomania.
+
+Freud - "The libido withdrawn from the outer world has been diverted on to the ego, givin rise to a state  we may call narcissism"
+
+What is the difference between narcisistic perversion and autoerotic activities such as masturbation 
+
+- in masturbation the body is recognized as the self
+- In a perversion, however, one sees one's body as a sexual object, that is as another person.
+	- narcissus wont love himself but would do his image
+
+Autoerotic activities are a manifestation of self-love, whereas narcissism  is a form of image or ego love.
+### SELF AND GO
+
+Ego (The mental I)
+- Self-awareness
+- Self-expression
+- Self-possession
+- Self-consciousness or consciousness of the self
+
+The ego is not the self,  though it is that part of the personality that perceives the self.
+
+By dissociating the ego from the body or self, narcissist sever consciousness from its living foundation, instead of working as a whole the personality is split in two parts
+- An active, observing "I" (ego) with which the individual identifies 
+- and a passive observed object (the body
+
+We have a dual relationship with out bodies 
+- experience our body directly trough feeling 
+- can have an image of it
+
+Healthy Person
+- has this dual consciousness
+- But the self-image and the direct self-experience thorugh the body coincide
+
+Without self-acceptance, there is no self-love
+
+One has to have sense of self in order to share it
+
+Without a felt self. the sense of identity becomes attached to the "I"
+
+From the ego's point of view, the body is an object to be observed , studied, and controlled in the interest of a performance that measures up to one's imnage.
+
+A personality disturbance occurs when there ia a lack of congruence between the self image and the self.
+
+Narcissist can treat the body as an object subject to the control of their will.
+
+## Image and body
+
